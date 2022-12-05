@@ -1,0 +1,75 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(243, 234, 210);
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 50px;
+    width: 60%;
+    height: 100%;
+    border: 5px solid rgb(14, 14, 56);
+    border-radius: 15px;
+    background-color:rgb(174, 197, 211);
+    color: rgb(14, 14, 56);
+}
+
+#start-button {
+    font-size: larger;
+}
+
+#time-left {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: rgb(14, 14, 56);
+}
+
+a {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: rgb(14, 14, 56);
+    background-color: rgb(174, 197, 211);
+    border: 5px solid rgb(14, 14, 56);
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#quiz-question {
+    font-size: larger;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(243, 234, 210);
+}
+
+li {
+    border: 5px solid rgb(14, 14, 56);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#back-button {
+    font-size: larger;
+}
+
+#clear-scores {
+    font-size: larger;
+}
+
+#scores {
+    list-style: none;
+}
